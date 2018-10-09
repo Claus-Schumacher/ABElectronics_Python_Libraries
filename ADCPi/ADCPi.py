@@ -10,7 +10,7 @@ Requires python smbus to be installed
 from __future__ import absolute_import, division, print_function, \
                                                     unicode_literals
 try:
-    import smbus
+    import smbus2 as smbus
 except ImportError:
     raise ImportError("python-smbus not found")
 import re
